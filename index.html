@@ -54,25 +54,54 @@
             vertical-align: middle;
         }
 
-        .header-bottom{
+        .header-bottom {
             margin: 15px 15px;
         }
 
-        .bottom-items{
+        .bottom-items {
             margin-left: 15px;
             color: #818181;
             transition: .5s;
         }
 
-        .bottom-items:hover{
+        .bottom-items:hover {
             background-color: lightgray;
             color: #818181;
             padding: 10px 15px;
             border-radius: 10px;
         }
 
-        .main-content{
+        .main-content {
             background-color: #f5f5f5;
+        }
+
+        .main-content-right-section {
+            display: inline-block;
+            width: 68%;
+            padding: 15px 45px;
+        }
+
+        .section-box h3 {
+            display: inline-block;
+            width: 49%;
+            color: #141414;
+        }
+
+        .section-box .link {
+            display: inline-block;
+            width: 50%;
+            text-align: left;
+        }
+
+        .section-box .link a {
+            color: #ff3543;
+            padding: 10px 15px;
+            border-radius: 12px;
+            transition: .5s;
+        }
+
+        .section-box .link a:hover {
+            background-color: #0000000a;
         }
     </style>
 </head>
@@ -127,9 +156,33 @@
     <div class="main-content">
         <img src="assets/cover-1.png" alt="cover-img" width="100%">
 
-        <div class="main-content-left-section"></div>
+        <div class="main-content-right-section">
+            <img src="assets/cover-2.png" alt="cover-img" width="100%">
 
-        <div class="main-content-right-section"></div>
+            <div class="section-box">
+                <h3>فیلم ایرانی</h3>
+
+                <div class="link">
+                    <a href="#">
+                        <span>مشاهده همه</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- <div class="main-content-left-section">
+            <div class="plate">
+                <a href="#">
+                    <img src="https://cinematicket.org/v3.19.0/assets/images/logo.svg" alt="cinematicket logo">
+
+                </a>
+            </div>
+        </div> -->
     </div>
 </body>
 
