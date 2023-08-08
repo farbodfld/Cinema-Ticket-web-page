@@ -8,18 +8,8 @@
     <style>
         body {
             margin: 0;
-        }
-
-        .header {
-            padding-bottom: 10px;
-            border-bottom: 0.5px solid lightgray;
-        }
-
-        .header-right {
-            margin-top: 15px;
-            display: inline-block;
-            vertical-align: middle;
-            width: 48%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 12px;
         }
 
         a {
@@ -29,7 +19,22 @@
             transition: .1s;
         }
 
-        a:hover {
+
+        /* Heade Section */
+        .header {
+            padding-bottom: 10px;
+            border-bottom: 0.5px solid lightgray;
+        }
+
+        /* right side of header */
+        .header-right {
+            margin-top: 15px;
+            display: inline-block;
+            vertical-align: middle;
+            width: 48%;
+        }
+
+        .header-right a:hover {
             color: red;
         }
 
@@ -41,6 +46,7 @@
             padding: 0 5px;
         }
 
+        /* left side of header */
         .header-left {
             margin-top: 15px;
             display: inline-block;
@@ -49,11 +55,17 @@
             width: 48%;
         }
 
+        .header-left a:hover {
+            color: red;
+        }
+
         .header-left img {
             padding: 0 10px;
             vertical-align: middle;
         }
 
+
+        /* Second part of header */
         .header-bottom {
             margin: 15px 15px;
         }
@@ -71,16 +83,22 @@
             border-radius: 10px;
         }
 
+
+        /* Main-Content Section */
         .main-content {
             background-color: #f5f5f5;
         }
 
+
+        /* Right side of the main-content section */
         .main-content-right-section {
             display: inline-block;
             width: 68%;
             padding: 15px 45px;
         }
 
+
+        /* Section-Box */
         .section-box h3 {
             display: inline-block;
             width: 49%;
@@ -102,6 +120,22 @@
 
         .section-box .link a:hover {
             background-color: #0000000a;
+        }
+
+
+        /* Movies-List-Box Section */
+        .movie {
+            display: inline-block;
+            vertical-align: middle;
+            width: 15%;
+            margin-right: 15px;
+            padding-left: 35px;
+            text-align: center;
+            transition: 1.5s;
+        }
+
+        .movie-list-box .movie a:hover {
+            transform: scale(1.1);
         }
     </style>
 </head>
@@ -170,6 +204,78 @@
                             <path fill-rule="evenodd"
                                 d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
                         </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="movie-list-box">
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-1.png" alt="movie-img">
+                        <h3>شهر هرت</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-2.png" alt="movie-img">
+                        <h3>نارگیل 2</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-3.png" alt="movie-img">
+                        <h3>بی مادر</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-4.png" alt="movie-img">
+                        <h3>دست انداز</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-5.png" alt="movie-img">
+                        <h3>فسیل</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-6.png" alt="movie-img">
+                        <h3>ستون 14</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-7.png" alt="movie-img">
+                        <h3>معجزه عشق</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-8.png" alt="movie-img">
+                        <h3>کت چرمی</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-9.png" alt="movie-img">
+                        <h3>سه کام حبس</h3>
+                    </a>
+                </div>
+
+                <div class="movie">
+                    <a href="#">
+                        <img src="assets/movie-10.png" alt="movie-img">
+                        <h3>فصل ماهی سفید</h3>
                     </a>
                 </div>
             </div>
